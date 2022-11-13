@@ -1,0 +1,50 @@
+/* table {
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #000;
+   color: #fff;
+}
+
+td, th {
+   background: #fff;
+   color: #000;
+} */
+
+.body-grades{
+max-width: 1024px;
+margin: 0 auto!important;
+}
+
+   table{
+   width: 100%;
+   margin: 0%;
+   display: table;
+   border-collapse: separate;
+   box-sizing: border-box;
+   text-indent: initial;
+   border-spacing: 2px;
+   border-color: grey;
+}
+
+th {
+   background-color: gray; 
+}
+
+body{
+   background-color: black;
+}
+
+dd{
+   color: aliceblue;
+}
+h1, h2, h3{
+   color: aliceblue;
+}
+
+table{
+   color: aliceblue;
+}
+p{
+   color: aliceblue;
+}
+

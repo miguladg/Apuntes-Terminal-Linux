@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Terminal de comandos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-grades">
+    <h1>Estructura de linux</h1>
+    <p>En la imangen podemos observar como esta distribuido el sistema de linux
+    ~ este simbolo nos indica que estamos en la carpeta de home    
+    </p>
+    <h3>comandos</h3>
+    <dl>
+        <dt>cd</dt>
+        <dd>Con cd podemos navergar entre carpetas</dd>
+        <dt>ls</dt>
+        <dd>Mostras todos los archivos, ls -l   ls -lr es enlistado en orden alfabetico</dd>
+        <dt>command -</dt>
+        <dd>El guion nos da opciones </dd>
+        <dt>fiel nombre_archivo</dt>
+        <dd>sirve para escribir un tipo de archivo y sus carateristicas</dd>
+        <dt>manls</dt>
+        <dd>Con esto obtendrás la misma información que con ls --help, solo que en el manual es más cómodo por que puedes moverte entre la información con el teclado: con las flechas, con el espacio, con el enter y con la q puedes salir del manual, te reto a probar navegar entre los manuales y descubrir las funciones de los nuevos comandos que aprendas</dd>
+        <dt>mv file</dt>
+        <dd>tree</dd>
+        <dd>Si no sale es poque no se posee instalada la version de tree por lo tal, tree -l 2 con esta opcion le damos para que profundice en 2 niveles </dd>
+        <dt>mkdir nombere</dt>
+        <dd>con este comando podrar creara archivos lo cual se llaman directorios pero si quieres crear un nombre con espacio lo puedes realizar con "mi directorio" </dd>
+        <dt>touch archivo</dt>
+        <dd>con entos comando podemos realizar varios arvhos con el mismo comando y tambien podemos realizar la extencios</dd>
+        <dt>mv</dt>
+        <dd>con el comando mv nombre .. podemos mover el archvi asia tras</dd>
+        <dt>mv nombre renombrer</dt>
+        <dd>con este comanda puedes renombrar un archivo</dd>
+        <dt>rm</dt>
+        <dd>puedes borrar archivos, variable rm -rf rm -ri</dd>
+     </dl>
+    <h3>Formas de Navegar</h3>
+    con cd  ./direccion /nombre_archivo  con esta forma puede navegar en todos los directorios. con el comando cd ../.. nos  dirijimos a home
+    
+     <h3>     </h3>
+
+        <dt>head</dt>
+        <dd>muestra cabecera del texto de los archivos recordar que con la opcion -n puedes realizar validar</dd>]
+        <dt>tail</dt>
+        <dd>muestra las ultimas 10 lineas</dd>
+        <dt>less [nombreDelArchivoParaAbrir]</dt>
+        <dd>Con este comando podemos ver todo el archivo y exploraro, Además, puedes buscar palabras dentro del documento. Si presionas la tecla slash “/”, en la parte de abajo se habilitará un cuadro donde podrás buscar palabras, solo escribe y presiona enter.</dd>
+        <dt>xdg-open</dt>
+        <dd>Podremos abrir cualquier archivo con el programa predemerminado, pero solo es en linux, para mac es con open</dd>
+        <dt>whatis comando</dt>
+        <dd></dd>
+        <dt>help comando</dt>
+        <dd>con esto modemos ver la funcion del comando</dd>
+        <dt>type comando </dt>
+        <dd>podemos saber los tres tipos de coman do que es como los del shell</dd>
+        <dt>mad comando</dt>
+        <dd>Man nombre comando hace referencia al manual del comando de una foma mas completa</dd>
+        <dt>whatsis namecamanso</dt>
+        <dd>informaciónde del comando, pero muy corta</dd>
+        <dt>info comandos</dt>
+        <dd>es una forma mas rresumida de man</dd>
+        <dt></dt>
+
+<h3>Wildcards</h3>
+     <p>Son unas series de patrones de busqueda</p>
+     <h3>Buscar todo (*)</h3>
+     <p>El asterisco te ayuda a buscar toda la información dentro de una carpeta, pero puedes limitar su uso. Si por ejemplo quieres buscar los archivos que tengan una extensión “.png”, escribes:</p>
+     <p>ls -l *png</p>
+
+
+
+    <h3>Alias</h3>
+     <p>alias temporar con estos podemos abreviar los coomando largos o cambiarles los nommbres, solo pones el nombre y cambias por  un nombre mas comodo</p>
+
+
+
+
+     <h3>Instalacion de la herramientas mas utilices en linuxs</h3>
+     <p>en linues puedes realizar la intalacion de variedad de estas ya que muchas no se intalan en la configuacion inicial o estan dentro de la funcionalidades</p>
+
+     <table >
+        <thead>
+        <tr>
+        <th>Comando</th>
+        <th>Descripción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>head [archivo]</td>
+        <td>Muestra las primeras 10 líneas de un archivo de texto</td>
+        </tr>
+        <tr>
+        <td>head -n 20 [archivo]</td>
+        <td>Muestra las primeras 20 líneas</td>
+        </tr>
+        <tr>
+        <td>tail [archivo]</td>
+        <td>Muestra las últimas 10 líneas</td>
+        </tr>
+        <tr>
+        <td>tail -n 20 [archivo]</td>
+        <td>Muestra las últimas 20 líneas</td>
+        </tr>
+        <tr>
+        <td>less [archivo]</td>
+        <td>Explora el contenido del archivo (y para salirte de este modo usas la Q)</td>
+        </tr>
+        <tr>
+        <td>code [archivo]</td>
+        <td>Abre un archivo de texto en VSCode</td>
+        </tr>
+        <tr>
+        <td>wc [file]</td>
+        <td>Te muestra cuántas líneas, palabras y bits tiene un archivo</td>
+        </tr>
+        </tbody>
+        </table>
+
+</body>
+</html>
+
+
+<div ><p>¿Estás aprendiendo a usar la terminal en Linux, MacOS o WSL, pero te pasa que se te olvida uno o varios comandos? Si este es el caso, te tengo una solución en este artículo. 🙊</p>
+    <p>La terminal <strong>es una aplicación que funciona con líneas de <a href="https://platzi.com/clases/2292-terminal/37343-que-es-un-comando/" target="_blank" rel=" noopener">comando</a> y te permite realizar o automatizar tareas</strong> en una computadora, sin necesidad de utilizar una interfaz gráfica.</p>
+    <p>Saber usar la terminal es indispensable cuando quieres trabajar en cualquier área de programación: desarrollo web (backend y frontend), ciencia de datos y DevOps. Es por eso que en Platzi tenemos el <a href="https://platzi.com/cursos/terminal/" target="_blank" rel=" noopener">Curso de Introducción a la Terminal y Línea de Comandos</a>.</p>
+    <p>En la terminal <strong>usarás varios comandos</strong>. Tú y yo sabemos que existen demasiados y que no es una tarea fácil aprenderlos de memoria. Así que esta información puede ser de tu interés (sigue leyendo porque hay un regalo para ti 👇😉).</p>
+    <h2>Guía definitiva: comandos fundamentales de la terminal</h2>
+    <p>He creado esta guía con <strong>41 comandos</strong> de la terminal que debes conocer. Además,&nbsp;<strong>al final del artículo encontrarás una imagen descargable que contiene cada uno de ellos.</strong></p>
+    <h3>Comandos para mostrar archivos o carpetas</h3>
+    <p>Son los primeros <strong>8 comandos</strong> que debes aprender. Te permiten ver todos los archivos y carpetas existentes en tu computadora.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>pwd</td>
+    <td>Imprime la ruta en la que te encuentras</td>
+    </tr>
+    <tr>
+    <td>cd [carpeta]</td>
+    <td>Te lleva la carpeta que le indiques</td>
+    </tr>
+    <tr>
+    <td>cd …</td>
+    <td>Te lleva a la carpeta anterior de la que estás</td>
+    </tr>
+    <tr>
+    <td>ls</td>
+    <td>Lista los archivos y carpetas</td>
+    </tr>
+    <tr>
+    <td>ls -a</td>
+    <td>Lista los archivos incluyendo los ocultos</td>
+    </tr>
+    <tr>
+    <td>ls -S</td>
+    <td>Lista los archivos por tamaño, de mayor a menor</td>
+    </tr>
+    <tr>
+    <td>ls -lh</td>
+    <td>Lista los archivos y carpetas con info detallada y legible para humanos</td>
+    </tr>
+    <tr>
+    <td>code .</td>
+    <td>Abre la carpeta donde te encuentras en VSCode</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Comandos para manipular archivos/carpetas</h3>
+    <p>¿Quieres crear carpetas, moverlas de lugar o incluso comprimir archivos desde la misma terminal? Estos son <strong>11 comandos</strong> más que debes aprender.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>mkdir [carpeta]</td>
+    <td>Crea una carpeta con el nombre que le des</td>
+    </tr>
+    <tr>
+    <td>touch [carpeta]</td>
+    <td>Crea un archivo con el nombre y la extensión que le des</td>
+    </tr>
+    <tr>
+    <td>file [carpeta]</td>
+    <td>Muestra las características de un archivo</td>
+    </tr>
+    <tr>
+    <td>cp [archivo] [destino]</td>
+    <td>Copia un archivo hacia un nuevo destino</td>
+    </tr>
+    <tr>
+    <td>cp -r [carpeta] [destino]</td>
+    <td>Copia una carpeta hacia un nuevo destino</td>
+    </tr>
+    <tr>
+    <td>mv [archivo/carpeta] [destino]</td>
+    <td>Mueve una carpeta o archivo hacia un nuevo destino</td>
+    </tr>
+    <tr>
+    <td>rm [archivo]</td>
+    <td>Elimina un archivo</td>
+    </tr>
+    <tr>
+    <td>rm -r [carpeta]</td>
+    <td>Elimina una carpeta y su contenido</td>
+    </tr>
+    <tr>
+    <td>rm -ri [carpeta]</td>
+    <td>Elimina una carpeta y su contenido de forma interactiva</td>
+    </tr>
+    <tr>
+    <td>tar -czvf [nombre].tar.gz [carpeta]</td>
+    <td>Comprime una carpeta</td>
+    </tr>
+    <tr>
+    <td>tar -xzvf [nombre].tar.gz</td>
+    <td>Descomprime la carpeta</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Comandos para archivos de texto plano</h3>
+    <p>Desde la misma terminal puedes ver las líneas que tienen los archivos de texto plano. Aquí tienes <strong>7 comandos</strong> que te servirán para esta acción. Imagínate ver el código que estás escribiendo sin tener que abrir VSCode.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>head [archivo]</td>
+    <td>Muestra las primeras 10 líneas de un archivo de texto</td>
+    </tr>
+    <tr>
+    <td>head -n 20 [archivo]</td>
+    <td>Muestra las primeras 20 líneas</td>
+    </tr>
+    <tr>
+    <td>tail [archivo]</td>
+    <td>Muestra las últimas 10 líneas</td>
+    </tr>
+    <tr>
+    <td>tail -n 20 [archivo]</td>
+    <td>Muestra las últimas 20 líneas</td>
+    </tr>
+    <tr>
+    <td>less [archivo]</td>
+    <td>Explora el contenido del archivo (y para salirte de este modo usas la Q)</td>
+    </tr>
+    <tr>
+    <td>code [archivo]</td>
+    <td>Abre un archivo de texto en VSCode</td>
+    </tr>
+    <tr>
+    <td>wc [file]</td>
+    <td>Te muestra cuántas líneas, palabras y bits tiene un archivo</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Comandos para buscar archivos/carpetas</h3>
+    <p>¿Se te perdió el archivo <code>CodigoEmpresaFinalFinalEsteSiEs.js</code> y no sabes cómo encontrarlo? ¿O quieres que la terminal te muestre una lista específica de archivos? Si es así, échales un ojo a estos <strong>5 comandos</strong>.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>find [carpeta] -name [archivo]</td>
+    <td>Busca un archivo/carpeta en una ruta específica</td>
+    </tr>
+    <tr>
+    <td>find ./ -name [archivo]</td>
+    <td>Busca un archivo/carpeta en la ruta donde te encuentras</td>
+    </tr>
+    <tr>
+    <td>ls *[.txt]</td>
+    <td>Lista los archivos que terminen con esa extensión</td>
+    </tr>
+    <tr>
+    <td>ls [palabra]*</td>
+    <td>Lista los archivos que empiecen con esa palabra</td>
+    </tr>
+    <tr>
+    <td>grep -i [palabra] [file]</td>
+    <td>Busca en ese archivo la palabra que le especifiques</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Comandos para red e internet</h3>
+    <p>A través de estos <strong>4 comandos</strong> podrás conocer el estado de tu red de internet o simplemente hacer un <em>ping</em> para identificar el estado de una página web o servidor.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>ifconfig</td>
+    <td>Muestra la información de tu red</td>
+    </tr>
+    <tr>
+    <td>ping [ip_dominio]</td>
+    <td>Consulta la disponibilidad de esa IP en tu red o internet</td>
+    </tr>
+    <tr>
+    <td>wget [id_dominio]</td>
+    <td>Descarga el archivo o recurso de esa IP o dominio</td>
+    </tr>
+    <tr>
+    <td>netstat -i</td>
+    <td>Muestra las interfaces de red y su estado</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Explorador de comandos</h3>
+    <p>Son <strong>4 comandos</strong> que te dejarán ver el manual de instrucciones para cada uno de los comandos que te he mostrado.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>man [comando]</td>
+    <td>Muestra el manual del comando</td>
+    </tr>
+    <tr>
+    <td>help [comando]</td>
+    <td>Muestra ayuda para el comando (solo en Bash)</td>
+    </tr>
+    <tr>
+    <td>whatis [comando]</td>
+    <td>Muestra un resumen de la función del comando</td>
+    </tr>
+    <tr>
+    <td>sudo [comando]</td>
+    <td>Ejecuta un comando como superusuario</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Bonus (o como le decimos en mi país, <em>la ñapa</em> 🤑)</h3>
+    <p>Qué aburrida sería nuestra vida en programación sin Cowsay, la vaquita que habla en la terminal 😔. Comparte una foto en los comentarios con tu frase favorita de Cowsay.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Comando</th>
+    <th>Descripción</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>cowsay [palabras]</td>
+    <td>Muestra una vaca que habla</td>
+    </tr>
+    <tr>
+    <td>cowsay -f dragon-and-cow [palabras]</td>
+    <td>Muestra un dragón que habla</td>
+    </tr>
+    </tbody>
+    </table>
+
+    <h2>Empesando a correr</h2>
+        <h3>Redirecciones y como funciona la shell</h3>
+            <p><strong>Que son las entrada y salidas de la terminal</strong>En la consola nosotros generamos una entrada cuando escribimos y una salida casi siempre que ejecutamos un comando. <br> A las entradas típicamente se les suele llamar Standard Input y a las salidas Standard Output, además se les suele abreviar como stdin y stdout respectivamente. </p>
+            <p><strong></strong></p>
+
+
+            <div class="Resources-description"><p>Ya aprendiste <a href="https://platzi.com/clases/2292-terminal/37343-que-es-un-comando/" target="_blank" rel=" noopener">qué es un comando</a>, Ahora, para entender qué son las redirecciones vamos a aprender cómo manejar entradas y salidas a través de operadores especiales.</p>
+                <h2>Qué son las entradas y salidas de la terminal</h2>
+                <p>En la consola nosotros generamos una entrada cuando escribimos y una salida casi siempre que ejecutamos un comando.</p>
+                <p>A las entradas típicamente se les suele llamar <strong>Standard Input</strong> y a las salidas <strong>Standard Output</strong>, además se les suele abreviar como <strong>stdin</strong> y <strong>stdout</strong> respectivamente.</p>
+                <h3>Qué son file descriptors</h3>
+                <p>Los file descriptors son números que identifican un recurso. Funciona asociando un número con una acción, archivo o programa, en el caso de la shell tenemos 3 file descriptors:</p>
+                <figure><img src="https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28100%29.png" alt="image.png"></figure>
+                <p>El 2 es <strong>Standard Error</strong>.</p>
+                <h2>Cómo usar el operador de redirección (&gt;)</h2>
+                <p>A veces queremos guardar la información de una salida porque nos puede interesar almacenar lo que esa salida contiene. Veamos el siguiente ejemplo, si utilizas el comando:</p>
+                <pre><code><span class="hljs-keyword">ls</span> -<span class="hljs-keyword">l</span>
+                </code></pre>
+                <figure><img src="https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28102%29.png" alt="image.png"></figure>
+                <p>Lo que sucede aquí es que le diste un <strong>Standard Input</strong> (el comando) y obtuviste un <strong>Standard Output</strong> (la lista de archivos).</p>
+                <p>Si quieres que el <strong>Standard Output</strong> no vaya a la consola sino hacia un archivo, entonces puedes usar el operador <strong>&gt;</strong> seguido del nombre del archivo en el que quieres guardar la salida.</p>
+                <pre><code><span class="hljs-keyword">ls</span> -<span class="hljs-keyword">l</span> &gt; output.txt
+                </code></pre>
+                <figure><img src="https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28103%29.png" alt="image.png"></figure>
+                <h3>Cómo concatenar (&gt;&gt;)</h3>
+                <p>Suponiendo que ya tienes el archivo output.txt y ahora también quieres guardar la información de la carpeta de documentos, entonces no puedes volver a ejecutar:</p>
+                <pre><code><span class="hljs-keyword">ls</span> -<span class="hljs-keyword">l</span> &gt; output.txt
+                </code></pre>
+                <p>Esto lo que hará es reescribir el contenido del documento, lo que necesitas es concatenar el contenido del documento con el de la salida, para eso ejecutas:</p>
+                <pre><code>ls -l <span class="hljs-meta">&gt;&gt; </span>output.txt
+                </code></pre>
+                <figure><img src="https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28104%29.png" alt="image.png"></figure>
+                <p>Como puedes ver, la salida del comando <code>ls -l</code> se concatenó con la salida del comando <code>ls -l ./SecretosDeEstado</code>. Te puedes dar cuenta porque la palabra total se repite dos veces.</p>
+                <p>Por cierto, esa palabra total es el tamaño total de la carpeta en kilobytes y dice que la carpeta SecretosDeEstado pesa 0, porque los archivos y carpetas vacías no ocupan espacio.</p>
+                <h3>Redirección de errores (2&gt;|2&gt;&amp;1)</h3>
+                <p>El operador de redirección por defecto solo redirecciona el file descriptor 1 (es decir, el <strong>Standard Output</strong>). Pero, ¿qué tal si queremos redirigir un error? Pues tenemos que especificar que queremos el <strong>Standar Error</strong>, que tiene el file descriptor 2.</p>
+                <p>Vamos a generar un error ejecutando un comando que saldrá mal para redirigirlo a un archivo llamado “error.txt”.</p>
+                <figure><img src="https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28105%29.png" alt="image.png"></figure>
+                <p>En este caso la opción “ñ” no existe, por lo que produce un error.</p>
+                <p>También podemos especificar que no importa lo que pase si me da un <strong>Standar Ouput</strong> o un <strong>Standar Error</strong>, igual tiene que guardar la salida en un archivo. Esto lo hacemos así:</p>
+                <pre><code><span class="hljs-keyword">ls</span> -<span class="hljs-keyword">l</span> &gt; output.txt 2&gt;&amp;1
+                </code></pre>
+                <p>La orden <code>2&gt;&amp;1</code> significa que debe redirigir el file descriptor 2 y el file descriptor 1.</p>
+                <figure><img src="https://cdn.document360.io/da52b302-22aa-4a71-9908-ba18e68ffee7/Images/Documentation/image%28106%29.png" alt="image.png"></figure>
+                <p>En la primera ejecución del comando, se ejecuta correctamente y guarda el <strong>Standar Output</strong>, pero en la segunda ejecución, el comando falla y guarda el <strong>Standar Error</strong>.</p>
+                <h2>Tabla de operadores</h2>
+                <table>
+                <thead>
+                <tr>
+                <th>Operador</th>
+                <th>Función</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>&gt;</td>
+                <td>Redirecciona la salida. Por defecto redirecciona el <strong>Standar Output</strong></td>
+                </tr>
+                <tr>
+                <td>&gt;&gt;</td>
+                <td>Concatena la salida con lo que ya tenga el archivo a donde se está redirigiendo la salida</td>
+                </tr>
+                <tr>
+                <td>2&gt;</td>
+                <td>Redirecciona el file descriptor 2 (En este caso <strong>Standar Error</strong>)</td>
+                </tr>
+                <tr>
+                <td>2&gt;&amp;1</td>
+                <td>Redirecciona el file descriptor 2 y 1</td>
+                </tr>
+                </tbody>
+                </table>
+                <p><em>Contribución creada con los aportes de: Miguel Gonzalez.</em></p>
+                </div>
+
+    
+<h4>clase 10 encadenar comando y operadores</h4>
+<p>ls; mkdir; cal</p>
+<p>el comando cal es el comando que nnos muestra un calendario</p>
+<p>la & dae $ cal</p>
+<p>&& este es un comando para concadenar un proceso</p>
