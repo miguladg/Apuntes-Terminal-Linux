@@ -28,16 +28,32 @@ margin: 0 auto!important;
 
 th {
    background-color: gray; 
+   font-family: 'Roboto', sans-serif;
+   color: blue;
+}
+
+td{
+   background-color: aliceblue;
+   color: black;
+   text-align: center;
+   
 }
 
 body{
    background-color: black;
+   font-family: 'Quicksand', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 
 dd{
    color: aliceblue;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
+   color: rgb(125, 37, 172);
+   width: 90%;
+}
+
+p, dd, dt, ol, li{
    color: aliceblue;
 }
 
@@ -48,3 +64,45 @@ p{
    color: aliceblue;
 }
 
+
+.titulo_boton {
+   float:left; 
+   padding:5px;  
+   background-color:#e6e6e6;
+   width:100%;
+   font-family:helvetica;
+   font-size:16px;
+   font-weight:bold;
+ }
+ .boton_mostrar {
+   float:right;
+   font-size:12px;
+   line-height:20px;
+   color:#DE7217;
+ }
+ #contenido{
+   float:left;
+   clear:both;
+   border:2px solid #e6e6e6;
+   margin-top:2px;
+   padding:5px;
+   width:100%;
+   overflow:auto;
+   font-family:helvetica;
+   font-size:14px;
+   text-align: justify;
+ }
+
+ img{
+   display: block;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ button{
+   width: 100%;
+   background-color: rgb(15, 15, 64);
+   border-radius: 10%;
+   cursor: pointer;
+ }
